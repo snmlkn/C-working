@@ -1,0 +1,441 @@
+-------------------------C PROGRAMLAMA EGZERSİZLEERİ--------------------------
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main()
+{
+    /*
+    //exercise 1 bir fonksiyonun çözümünü veren program
+    int a,b,c,x;
+    printf("please enter the a b c and x values\n");
+    scanf("%d %d %d %d",&a,&b,&c,&x);
+    printf("your values are  %d %d %d %d\n",a,b,c,x);
+    printf("the procces of ax^2+bx+c result is %d",((a*x*x)+(b*x)+c));
+    */
+    /*
+    //exercise 2 with a proces function prizmanın taban yanal tolatal alanı ve hacmini veren program
+    int a,b,h;
+    printf("please enter your length of prism  a b and h \n");
+    scanf("%d %d %d",&a,&b,&h);
+    proces(a,b,h);
+    //çağırılan fonksiyon
+    void proces(a,b,h)
+{
+    printf("total base areas %d\n",2*a*b);
+    printf("lateral area %d\n",(2*a*h)+(2*b*h));
+    printf("total prism area %d\n",(2*a*h)+(2*b*h)+(2*a*b));
+    printf("volume of prism %d\n",a*b*h);
+}*/
+    
+    /*
+    //exercise 3 with a exerthree function üç sayıyı kullanıcıdan alan ve karşılaştıan program
+    int x,y,z;
+    printf("enter the three number to compare\n");
+    scanf("%d %d %d",&x,&y,&z);
+    exerthree(x,y,z); //karşılaştırma fonksiyonu
+    */
+    /*
+    //execises 4 iki değeri karşılaştıran ve birbirinin katı olup olmadığını gösteren program
+    int a,b;
+    printf("enter two number to compare\n");
+    scanf("%d%d",&a,&b);
+    if(a>b)
+        printf("a>b\n");
+    else if(a<b)
+        printf("a<b\n");
+    else if(a==b)
+        printf("a=b\n");
+    if(a%b==0 || b%a==0)
+        printf("a is multiple of b\n");
+    else if(a%b!=0 || b%a!=0)
+        printf("a is  not multiple of b\n");
+        */
+        
+     /*
+   //exercise 5 WHİLE DÖNGÜSÜ KULLANARAK GİRİLENSAYIDAN İTİBAREN SAYILARI GERİ DOĞRU SAYDIRMA
+   int x;
+   printf("please enter a number for counting backwards\n");
+   scanf("%d",&x);
+
+   while(x!=0)
+   {
+       printf("x value = %d\n",x);
+       x-=1;
+   }
+   */
+   
+    /*
+    //exercise 6  N SAYISINA KADAR OAN SAYILARI TOPLAYAN PROGRAM
+   int i=1,x,result=0;
+   printf("please enter a number for counting backwards\n");
+   scanf("%d",&x);
+
+   while(i<=x)
+   {
+       if(x==i)
+       {
+          printf("%d",x);
+       }
+       else
+       {
+          printf("%d +",i);
+       }
+         result=result+i;
+            i++;
+   }
+   printf("= %d\n",result);
+   */
+   
+   /*
+    //exercise 7  BİR FONKSİYON DEĞERİNİ HESAPLATMA VE BASTIRMA
+    float x;
+    printf("enter x value to f(x) calculation\n");
+    scanf("%f",&x);
+    printf("f(%.2f) = %.4f",x,x*x*x+13*x*x+47*x+5);
+    */
+	
+	/*
+    //execise 8 İKİ SAYININ ÇARPIMININ İŞARETİNİ VEREN PROGRAM
+    int x,y;
+    printf("enter two number to see result sign\n");
+    scanf("%d %d",&x,&y);
+
+    if((x>0 && y>0) || (x<0 && y<0))
+    {
+        printf("sign(%d*%d)= +1\n",x,y);
+    }
+    else if(x<0 || y<0)
+    {
+        printf("sign(%d*%d)= -1\n",x,y);
+    }
+    */
+   
+   /*
+    //execise 9 KULLANICIDAN ALINAN SAYININ İÇİNDE BULUNAN 17 VE KATLARINI VEREN PROGRAM
+    int x,i=0,line=1;
+    printf("enter two number to see multiple of 17\n");
+    scanf("%d",&x);
+
+    while(i<=x)
+    {
+        if(i%17==0)
+        {
+            printf("%5d",i);
+            if(line%10==0)
+            {
+                printf("\n");
+            }
+            line++;
+        }
+        i++;
+
+    }
+
+    */
+	/*
+    //execise 10 KARENİN ALANI
+    float x,area;
+    printf("enter the length to take area of square\n");
+    scanf("%f",&x);
+    area=x*x;
+    printf("area is %.7f",area);
+    */
+	
+	 /*
+    //exercise 11 5 BASAMAKLI SAYININ BASAMAK DEĞERLERİNİ VEREN PROGRAM
+    int x;
+    printf("enter a five diğit number to seperate digits\n");
+    scanf("%d",&x);
+
+    printf("first digit number is %d\n",x%10);
+    printf("second digit number is %d\n",x%100/10);
+    printf("third digit number is %d\n",x%1000/100);
+    printf("fourth digit number is %d\n",x%10000/1000);
+    printf("fifth digit number is %d\n",x/10000);
+    */
+	
+	/*
+    //exercise 12 MİLİ KM'YE ÇEVİREN PROGRAM
+    float mil;
+   printf("enter the distance in miles\n");
+   scanf("%f",&mil);
+   printf("%.2f mile= %.3f km",mil,mil*1.609);
+   */
+   
+   /*
+    // exercise 13 DAİRENİN ALANI HESAPLAMA
+    // #define PI 3.141 global olarak tanımlanır 
+    float area,radius;
+    printf("enter the radius to calculate circle area\n");
+    scanf("%f",&radius);
+    area=PI*radius*radius;
+    printf("radius area is %f",area);
+    */
+	
+	/*
+    //exercise 14 HAVUZ HACMİ BULAN PROGRAM
+    int a,b,h,poolA;
+    printf("enter the size of pool\n");
+    scanf("%d %d %d",&a,&b,&h);
+    poolA=a*b*h;
+    printf("necessary amount of water %d\n",poolA);
+    */
+	
+	/*
+    //exercise 15 İKİ TAM SAYININ YERİNİ DEĞİŞTİRME
+    int a,b,c;
+    printf("enter A number \n");
+    scanf("%d",&a);
+    printf("enter B number \n");
+    scanf("%d",&b);
+    printf("A= %d and B= %d\n",a,b);
+    c=a;
+    a=b;
+    b=c;
+    printf("A= %d\n",a);
+    printf("B= %d\n",b);
+    */
+	
+	/*
+    //exercise 16 HALI FİYATI HESAPLAMA(metrekaresi 40 lira işçilik 200 lira)
+    int area;
+    printf("enter the carpet area to cover up\n");
+    scanf("%d",&area);
+    printf("the carpet cover up price is %d liras",area*40+200);
+    */
+	
+	/*
+    //exercise 17 HALI FİYATI HESAPLAMA2
+    int area;
+    char type;
+
+    printf("carpet type T B S\n");
+    printf("please enter your carpet type\n");
+    scanf("%c",&type);
+
+    printf("please enter your carpet area\n");
+    scanf("%d",&area);
+
+    if(type == 'T')
+    {
+        printf("your carpet price is %d\n",18*area);
+    }
+    else if(type == 'B')
+    {
+        printf("your carpet price is %d\n",17*area);
+    }
+    else if(type == 'S')
+    {
+        printf("your carpet price is %d\n",19*area);
+    }
+    */
+	
+	/*
+    //exercise 18 GİRİLEN SAYININ 17 VE 13 İLE BÖLÜNME DURUMUNU GÖSTEREN PROGRAM
+    int n;
+    printf("please enter a number\n");
+    scanf("%d",&n);
+
+    if(n % 13 == 0)
+    {
+        printf("this number can divide 13\n");
+    }
+    else if(n % 17 == 0)
+    {
+        printf("this number can divide 17\n");
+    }
+    else if(n % 13 == 0 && n % 17 == 0)
+    {
+        printf("this number can divide 13 and 17\n");
+    }
+    else
+    {
+        printf("this number cannot divide 13 or 17\n");
+    }
+    */
+	
+	 /*
+    // exercise 19 KULLANICIDAN ALINAN 3 SAYININ ORTALAMASINI VEREN PROGRAM
+    int a,b,c;
+    float result;
+    printf("please enter three number to see average\n");
+    scanf("%d %d %d",&a,&b,&c);
+    result=(a+b+c)/3;
+    printf("the average is %.2f\n",result);
+    */
+	
+	/*
+    //exercise 20 TEK HANELİ ÜÇ RAKAMI BİRLEŞTİRİP 3 BASAMAKLI BİR SAYI ELDE ETME
+    int x,y,z;
+    int number;
+    printf("enter the three number\n");
+    scanf("%d %d %d",&x,&y,&z);
+    number=x*100+y*10+z;
+    printf("the new number is %d",number);
+    */
+	
+	 /*
+    // exercise 21 ORTALAMA HIZ HESAPLAYAN PROGRAM
+    int time;
+    printf("enter the travel time istanbul from ankara\n");
+    scanf("%d",&time);
+    float ave=450/time;
+    printf("the average speed is %.2f",ave);
+    */
+	
+	/*
+    //execise 22 GİRİLEN BÜYÜK HARF KARAKTERİ KÜÇÜK HARFE ÇEVİRME
+    char kar;
+    printf("enter a big letter\n");
+    scanf("%c",&kar);
+
+    if('A'>=kar && kar<='Z' )
+    {
+        printf("%c",tolower(kar));
+    }
+    else if('a'>=kar && kar<='z' )
+    {
+        printf("the letter already small");
+    }
+	*/
+	/*
+	//do while kullnarak 1/i ifadelerini toplama
+    //TEKRAR BAK !!!!!!!!!!!!!!!
+   int n;
+   float sonuc;
+   int i;
+   do{
+   printf("N degerini giriniz");
+   scanf("%d",&n);
+   }while(n<1);
+
+   for(i=1;i<=n;i++)
+   {
+       sonuc+=(float)1/i;
+   }
+   printf("Sonucumuz : %f",sonuc);
+
+	 */
+	 
+	 /*
+	   //exercise 23 BİR SAYININ KAREKÖKÜNÜ DO-WHİLE KULLANARAK ALMA
+   float n;
+   do
+   {
+    printf("enter n number to process\n");
+    scanf("%f",&n);
+    if(n<0)
+    {
+        printf("enter the positive number\n");
+    }
+    if(n<0)continue;
+    {
+        printf("the square of number is %.2f\n",sqrt(n));
+    }
+   }
+   while(n);
+   */
+   /*
+     //exercise 24 İKİ SYAININ ÇARPIM SONUCUNUN İŞARETİN VEREN PROGRAM
+  int a,b;
+  printf("enter two number to see multiplication result\n");
+  scanf("%d %d",&a,&b);
+
+  if(a==0 || b==0)
+  {
+      printf("multiplication result is zero");
+  }
+  else if(a<0 && b<0 || a>0 && b>0)
+  {
+      printf("multiplication result is positive");
+  }
+  else
+  {
+      printf("multiplication result is negative");
+  }
+ */
+ /*
+  //exercise 25 ÜÇGEN AÇILARINI ALAN VE ÜÇGEN ÇEŞİDİNİ SÖYLEYEN PROGRAM
+    int a,b,c,sub;
+    printf("enter the triangle angles to learn type\n");
+    scanf("%d %d %d",&a,&b,&c);
+    sub=a+b+c;
+    if(sub>=181)
+    {
+        printf("angles are not true\n");
+    }
+    if(a==60 && b==60 && c==60)
+    {
+        printf("a=b=c the triangle is congruent triangle\n");
+    }
+    else if(a==b || a==c || b==c)
+    {
+        printf("the triangle is isosceles triangle\n");
+    }
+    else
+    {
+        printf("the triangle is scalene triangle");
+    }
+    */
+	/*
+	//exercise 26  KONUŞULAN SÜREYE GÖRE TELEFON FATURASI HESAPLAMA 
+  float time;
+  float price;
+  printf("enter the time to calculate bill\n");
+  scanf("%f",&time);
+
+  if(time <=3)
+  {
+      printf("the price is 0.25 liras");
+  }
+  else if (time>3)
+  {
+      printf("the price is %.3f",0.25+(time-3)*0.08);
+  }
+*/
+/*
+  //exercise CÜMLEDEKİ KELİME SAYISINI BULAN PROGRAM
+    int word;
+    char sentence[100];
+    int i=0;
+    printf("enter a sentence to count word\n");
+    gets(sentence); //scanf fonksiyonu boşluk karakterine kadar değer alır bu sebeple gets kullanıyoruz. 
+
+    while(sentence[i])
+    {
+        if(sentence[i]==' ') //' ' yerine ASC|| tablosundan 32 değeride kullanılabilir.
+        {
+            word++;
+        }
+        i++;
+    }
+
+        printf("the word number is %d\n",word+1);
+		*/
+		
+	/*
+	 //exercise GİRİLEN CÜMLENİN KARAKTER SAYISINI BULAN PROGRAM
+  char kar[100];
+  int i=0;
+  int a=0;
+  printf("enter your sentence to count char\n");
+  gets(kar);
+  while(kar[i])
+  {
+         i++;
+    if(kar[i]==32)
+    {
+
+        a++;//boşluk karakteri sayısı
+    }
+
+  }
+    printf("character number is %d",i-a);
+    */
+	
+	
+	 
+    return 0;
+}
+
