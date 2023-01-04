@@ -4,6 +4,7 @@
 
 int main()
 {
+    // strcat komutu ile karakter dizilerini birleÅŸtirme
     /* char name[100];
      char name2[100];
     int n;
@@ -29,7 +30,7 @@ int main()
     char three[10]=" ";
 
    strcpy(three,one);
-   strncpy(three+3,two,5); //three+3 three isimli chardan 3 eleman alındığını gösterir.
+   strncpy(three+3,two,5); //three+3 three isimli chardan 3 eleman alÃ½ndÃ½Ã°Ã½nÃ½ gÃ¶sterir.
 
    printf("%s",three);
 
